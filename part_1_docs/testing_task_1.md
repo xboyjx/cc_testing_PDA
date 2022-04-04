@@ -18,24 +18,26 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    # if card.value = 1:
+    # if card.value = 1: ### Needs to have == equality comparison operator instead of = assignment operator ###
       return True
-    else
+    # else  ### needs colon : ###
       return False
    
 
-  # dif highest_card(self, card1 card2):
+  # dif highest_card(self, card1 card2):  ### Spelling mistake 'def' instead of "dif" | should have a comma between card1 and card2 to separate parameters ###
   if card1.value > card2.value:
-    return card
+    return card ### Should return "card1" as that is the parameter passed in ###
   else:
     return card2
   
 
 
 def cards_total(self, cards):
-  # total
+  # total  ### should be set to 0 initally ###
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total ### incorrect indentation ###
+
+  ### entire function should be indented one more level ###
   
 ```
